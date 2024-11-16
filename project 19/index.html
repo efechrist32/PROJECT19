@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="+"></p>
+    <p id="-"></p>
+    <p id="*"></p>
+    <p id="/"></p>
+    <p id="%"></p>
+    <script>
+        var a, b, ab;
+        a =  170;
+        b = 85;
+        ab = a + b
+        document.getElementById("+").innerHTML = "The value of 170 + 85 is " + ab + ".";
+        cd = a - b
+        document.getElementById("-").innerHTML = "The value of 170 - 85 is " + cd + ".";
+        ef = a * b
+        document.getElementById("*").innerHTML = "The value of 170*85 is " + ef + ".";
+        gh = a / b
+        document.getElementById("/").innerHTML = "The value of 170 / 85 is " + gh + ".";
+        ij = a % b
+        document.getElementById("%").innerHTML = "The reminder of 170 / 85 is " + ij + ".";
+    </script>
+</body>
+</html>
